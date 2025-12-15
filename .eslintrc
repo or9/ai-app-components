@@ -1,0 +1,6 @@
+  {
+    "extends": ["plugin:prettier/recommended"],
+    "rules": {
+        "quotes": ["error", "backtick", { "avoidEscape": true, "allowTemplateLiterals": true }]
+    }
+  }
